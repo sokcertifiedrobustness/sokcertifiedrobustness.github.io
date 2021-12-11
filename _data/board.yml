@@ -1,0 +1,475 @@
+- setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.1\\)"
+  records:
+  - score: 97.95%
+    title: Fast certified robust training with short warmup
+    link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
+    venue: NeurIPS 2021
+    prob: false
+    comment: ""
+  - score: 97.95%
+    title: Boosting the certified robustness of L-infinity distance nets
+    link: "https://openreview.net/pdf?id=Q76Y7wkiji"
+    prob: false
+    comment: "ICLR 2022 submission"
+  - score: 97.91%
+    title: "Robustra: training provable robust neural networks over reference adversarial space"
+    link: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+    venue: IJCAI 2019
+    prob: false
+    comment: ""
+  - score: 97.77%
+    title: "Scalable verified training for provably robust image classification"
+    link: "https://openaccess.thecvf.com/content_ICCV_2019/html/Gowal_Scalable_Verified_Training_for_Provably_Robust_Image_Classification_ICCV_2019_paper.html"
+    venue: ICCV 2019
+    prob: false
+    comment: "Train on TPU"
+  - score: 97.76%
+    title: "Towards stable and efficient training of verifiably robust neural networks"
+    link: "https://openreview.net/pdf?id=Skxuk1rFwB"
+    venue: ICLR 2020
+    prob: false
+    comment: ""
+  - score: 97.70%
+    title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
+    link: "http://proceedings.mlr.press/v139/zhang21b.html"
+    venue: ICML 2021
+    prob: false
+    comment: 'Reported by <a href="https://openreview.net/pdf?id=Q76Y7wkiji">this paper</a>'
+  - score: 97.26%
+    title:  "Scaling provable adversarial defenses"
+    link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
+    venue: NeurIPS 2018
+    prob: false
+    comment: ""
+- setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.3\\)"
+  records:
+  - score: 93.20%
+    title: Boosting the certified robustness of L-infinity distance nets
+    link: "https://openreview.net/pdf?id=Q76Y7wkiji"
+    prob: false
+    comment: "ICLR 2022 submission"
+  - score: 93.10%
+    title: Fast certified robust training with short warmup
+    link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
+    venue: NeurIPS 2021
+    prob: false
+    comment: ""
+  - score: 93.09%
+    title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
+    link: "http://proceedings.mlr.press/v139/zhang21b.html"
+    venue: ICML 2021
+    prob: false
+  - score: 92.98%
+    title: "Towards stable and efficient training of verifiably robust neural networks"
+    link: "https://openreview.net/pdf?id=Skxuk1rFwB"
+    venue: ICLR 2020
+    prob: false
+  - score: 91.95%
+    title: "Scalable verified training for provably robust image classification"
+    link: "https://openaccess.thecvf.com/content_ICCV_2019/html/Gowal_Scalable_Verified_Training_for_Provably_Robust_Image_Classification_ICCV_2019_paper.html"
+    venue: ICCV 2019
+    prob: false
+    comment: "Train on TPU"
+  - score: 87.54%
+    title: Provably robust boosted decision stumps and trees against adversarial attacks
+    link: https://arxiv.org/pdf/1906.03526.pdf
+    venue: NeurIPS 2019
+    prob: false
+    comment: "Non-neural-network approach"
+  - score: 85.7%
+    title: "Adversarial training and provable defenses: bridging the gap"
+    link: "https://openreview.net/forum?id=SJxSDxrKDr"
+    venue: ICLR 2020
+    prob: false
+  - score: 83.09%
+    title: "Robustra: training provable robust neural networks over reference adversarial space"
+    link: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+    venue: IJCAI 2019
+    prob: false
+    comment: ""
+  - score: 80.68%
+    title: Training for faster adversarial robustness verification via inducing ReLU stability
+    link: "https://openreview.net/pdf?id=BJfIVjAcKm"
+    venue: ICLR 2019
+    prob: false
+
+- setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=2/255\\)"
+  records:
+  - score: 68.2%
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    prob: true
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 63.8%
+    title: "Unlabeled data improves adversarial robustness"
+    link: "https://arxiv.org/abs/1905.13736"
+    venue: NeurIPS 2019
+    prob: true
+    comment: use unlabeled data
+  - score: 60.5%
+    title: "Adversarial training and provable defenses: bridging the gap"
+    link: "https://openreview.net/forum?id=SJxSDxrKDr"
+    venue: ICLR 2020
+    prob: false
+  - score: 54.12%
+    title: Boosting the certified robustness of L-infinity distance nets
+    link: "https://openreview.net/pdf?id=Q76Y7wkiji"
+    prob: false
+    comment: "ICLR 2022 submission"
+  - score: 53.97%
+    title: "Towards stable and efficient training of verifiably robust neural networks"
+    link: "https://openreview.net/pdf?id=Skxuk1rFwB"
+    venue: ICLR 2020
+    prob: false
+  - score: 53.89%
+    title:  "Scaling provable adversarial defenses"
+    link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
+    venue: NeurIPS 2018
+    prob: false
+
+
+- setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=8/255\\)"
+  records:
+  - score: 40.06%
+    title: Boosting the certified robustness of L-infinity distance nets
+    link: "https://openreview.net/pdf?id=Q76Y7wkiji"
+    prob: false
+    comment: "ICLR 2022 submission"
+  - score: 35.42%
+    title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
+    link: "http://proceedings.mlr.press/v139/zhang21b.html"
+    venue: ICML 2021
+    prob: false
+  - score: 34.97%
+    title: Fast certified robust training with short warmup
+    link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
+    venue: NeurIPS 2021
+    prob: false
+  - score: 33.38%
+    title: "Automatic perturbation analysis for scalable certified robustness and beyond"
+    link: "https://papers.nips.cc/paper/2020/file/0cbc5671ae26f67871cb914d81ef8fc1-Paper.pdf"
+    venue: NeurIPS 2020
+    prob: false
+  - score: 33.06%
+    title: "Towards stable and efficient training of verifiably robust neural networks"
+    link: "https://openreview.net/pdf?id=Skxuk1rFwB"
+    venue: ICLR 2020
+    prob: false
+  - score: 32.04%
+    title: "Scalable verified training for provably robust image classification"
+    link: "https://openaccess.thecvf.com/content_ICCV_2019/html/Gowal_Scalable_Verified_Training_for_Provably_Robust_Image_Classification_ICCV_2019_paper.html"
+    venue: ICCV 2019
+    prob: false
+    comment: "Train on TPU"
+
+- setting: "ImageNet,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=1/255\\)"
+  records:
+  - score: 38.2%
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    prob: true
+    comment: "translated from \\(\\ell_2\\) certification, combine adversarial training, self-training, and unlabeled data"
+  - score: 28.6%
+    title: "Certified adversarial robustness via randomized smoothing"
+    link: "https://arxiv.org/abs/1902.02918"
+    venue: ICML 2019
+    prob: true
+    comment: "translated from \\(\\ell_2\\) certification"
+
+- setting: "MNIST,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.58\\)"
+  records:
+  - score: 70.7%
+    prob: true
+    title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
+    link: "https://arxiv.org/abs/2111.09277"
+    venue: NeurIPS 2021
+    comment: "under larger attack radius \\(\\epsilon=1.75\\)"
+  - score: 70.5%
+    prob: true
+    title: "Consistency regularization for certified robustness of smoothed classifiers"
+    link: "https://arxiv.org/abs/2006.04062"
+    venue: NeurIPS 2020
+    comment: "under larger attack radius \\(\\epsilon=1.75\\)"
+  - score: 69.0%
+    prob: true
+    title: "Certified adversarial robustness with additive noise"
+    link: "https://proceedings.neurips.cc/paper/2019/file/335cd1b90bfa4ee70b39d08a4ae0cf2d-Paper.pdf"
+    venue: NeurIPS 2019
+  - score: 62.8%
+    prob: false
+    title: "Globally-robust neural networks"
+    link: "https://arxiv.org/abs/2102.08452"
+    venue: ICML 2021
+  - score: 47.95%
+    prob: false
+    title: "Lipschitz-certifiable training with a tight outer bound"
+    link: "https://papers.nips.cc/paper/2020/file/c46482dd5d39742f0bfd417b492d0e8e-Paper.pdf"
+    venue: NeurIPS 2020
+  - score: 44.53%
+    title:  "Scaling provable adversarial defenses"
+    link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
+    venue: NeurIPS 2018
+    prob: false
+    comment: ""
+    
+- setting: "CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=36/255\\)"
+  text: "Many records from CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=0.25\\) imply stronger baselines in this setting. To avoid duplication, these stronger baselines are not listed here."
+  records:
+  - score: 65.6%
+    prob: true
+    title: "Certified adversarial robustness with additive noise"
+    link: "https://proceedings.neurips.cc/paper/2019/file/335cd1b90bfa4ee70b39d08a4ae0cf2d-Paper.pdf"
+    venue: NeurIPS 2019
+  - score: 62.96%
+    prob: false
+    title: "Householder activations for provable robustness against adversarial attacks"
+    link: "https://arxiv.org/pdf/2108.04062.pdf"
+  - score: 59.16%
+    prob: false
+    title: "Orthogonalizing convolutional layers with the cayley transform"
+    link: "https://openreview.net/pdf?id=Pbj8H_jEHYv"
+    venue: ICLR 2021
+  - score: 58.4%
+    prob: false
+    title: "Globally-robust neural networks"
+    link: "https://arxiv.org/abs/2102.08452"
+    venue: ICML 2021
+  - score: 51.96%
+    prob: false
+    title:  "Scaling provable adversarial defenses"
+    link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
+    venue: NeurIPS 2018
+  - score: 51.30%
+    prob: false
+    title: "Lipschitz-certifiable training with a tight outer bound"
+    link: "https://papers.nips.cc/paper/2020/file/c46482dd5d39742f0bfd417b492d0e8e-Paper.pdf"
+    venue: NeurIPS 2020
+- setting: "CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=0.25\\)"
+  records:
+  - score: 81%
+    prob: true
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 72%
+    prob: true
+    title: "Unlabeled data improves adversarial robustness"
+    link: "https://arxiv.org/abs/1905.13736"
+    venue: NeurIPS 2019
+    comment: "parse from Figure 1(a)"
+  - score: 71%
+    prob: true
+    title: "Macer: attack-free and scalable robust training via maximizing certified radius"
+    link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
+    venue: ICLR 2020
+  - score: 68.8%
+    prob: true
+    title: "Consistency regularization for certified robustness of smoothed classifiers"
+    link: "https://arxiv.org/abs/2006.04062"
+    venue: NeurIPS 2020
+  - score: 67.9%
+    prob: true
+    title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
+    link: "https://arxiv.org/abs/2111.09277"
+    venue: NeurIPS 2021
+  - score: 60%
+    prob: true
+    title: "Certified adversarial robustness via randomized smoothing"
+    link: "https://arxiv.org/abs/1902.02918"
+    venue: ICML 2019
+    comment: parse from Figure 6 (top)
+
+
+- setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
+  records:
+  - score: 45%
+    prob: true
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 44%
+    prob: true
+    title: "Consistency regularization for certified robustness of smoothed classifiers"
+    link: "https://arxiv.org/abs/2006.04062"
+    venue: NeurIPS 2020
+  - score: 43%
+    prob: true
+    title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
+    link: "https://arxiv.org/abs/2111.09277"
+    venue: NeurIPS 2021
+  - score: 43%
+    prob: true
+    title: "Macer: attack-free and scalable robust training via maximizing certified radius"
+    link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
+    venue: ICLR 2020
+  - score: 39%
+    prob: true
+    title: "Certified adversarial robustness via randomized smoothing"
+    link: "https://arxiv.org/abs/1902.02918"
+    venue: ICML 2019
+    comment: parse from Figure 6 (bottom)
+  - score: 39%
+    prob: true
+    title: "Black-box certification with randomized smoothing: A functional optimization based framework"
+    link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
+    venue: NeurIPS 2020
+    
+- setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=2.0\\)"
+  records:
+  - score: 28%
+    prob: true
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 27%
+    prob: true
+    title: "Macer: attack-free and scalable robust training via maximizing certified radius"
+    link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
+    venue: ICLR 2020
+  - score: 26%
+    prob: true
+    title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
+    link: "https://arxiv.org/abs/2111.09277"
+    venue: NeurIPS 2021
+  - score: 24%
+    prob: true
+    title: "Consistency regularization for certified robustness of smoothed classifiers"
+    link: "https://arxiv.org/abs/2006.04062"
+    venue: NeurIPS 2020
+  - score: 21%
+    prob: true
+    title: "Black-box certification with randomized smoothing: A functional optimization based framework"
+    link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
+    venue: NeurIPS 2020
+  - score: 19%
+    prob: true
+    title: "Certified adversarial robustness via randomized smoothing"
+    link: "https://arxiv.org/abs/1902.02918"
+    venue: ICML 2019
+    comment: parse from Figure 6 (bottom)
+
+
+- setting: "CIFAR-10,&nbsp; \\(\\ell_1\\), &nbsp; \\(\\epsilon=1.0\\)"
+  records:
+  - score: 63.07%
+    prob: false
+    title: "Improved, deterministic smoothing for l1 certified robustness"
+    link: "https://arxiv.org/abs/2103.10834"
+    venue: ICML 2021
+  - score: 63%
+    prob: true
+    title: "Randomized smoothing of all shapes and sizes"
+    link: "https://arxiv.org/abs/2002.08118"
+    venue: ICML 2020
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 39%
+    prob: true
+    title: "L1 adversarial robustness certificates: a randomized smoothing approach"
+    link: "https://openreview.net/forum?id=H1lQIgrFDS"
+    comment: parse from Figure 6
+  - score: 34%
+    prob: true
+    title: "Black-box certification with randomized smoothing: A functional optimization based framework"
+    link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
+    venue: NeurIPS 2020
+  - score: 18%
+    prob: true
+    title: "Certified robustness to adversarial examples with differential privacy"
+    link: "https://arxiv.org/abs/1802.03471"
+    venue: "S&P 2019"
+    comment: "parse from Figures 7 and 8 of <a href='https://openreview.net/pdf?id=H1lQIgrFDS'>this paper</a> since the original paper does not provide certified accuray under this setting"
+
+- setting: "CIFAR-10,&nbsp; \\(\\ell_1\\), &nbsp; \\(\\epsilon=2.0\\)"
+  records:
+  - score: 51.33%
+    prob: false
+    title: "Improved, deterministic smoothing for l1 certified robustness"
+    link: "https://arxiv.org/abs/2103.10834"
+    venue: ICML 2021
+  - score: 48%
+    prob: true
+    title: "Randomized smoothing of all shapes and sizes"
+    link: "https://arxiv.org/abs/2002.08118"
+    venue: ICML 2020
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 17%
+    prob: true
+    title: "Black-box certification with randomized smoothing: A functional optimization based framework"
+    link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
+    venue: NeurIPS 2020
+  - score: 16%
+    prob: true
+    title: "L1 adversarial robustness certificates: a randomized smoothing approach"
+    link: "https://openreview.net/forum?id=H1lQIgrFDS"
+    comment: parse from Figure 6
+  - score: 5%
+    prob: true
+    title: "Certified robustness to adversarial examples with differential privacy"
+    link: "https://arxiv.org/abs/1802.03471"
+    venue: "S&P 2019"
+    comment: "parse from Figures 7 and 8 of <a href='https://openreview.net/pdf?id=H1lQIgrFDS'>this paper</a> since the original paper does not provide certified accuray under this setting"
+
+- setting: "ImageNet,&nbsp; \\(\\ell_1\\), &nbsp; \\(\\epsilon=1.0\\)"
+  records:
+  - score: 55%
+    prob: true
+    title: "Randomized smoothing of all shapes and sizes"
+    link: "https://arxiv.org/abs/2002.08118"
+    venue: ICML 2020
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 49%
+    prob: false
+    title: "Improved, deterministic smoothing for l1 certified robustness"
+    link: "https://arxiv.org/abs/2103.10834"
+    venue: ICML 2021
+  - score: 42%
+    prob: true
+    title: "Black-box certification with randomized smoothing: A functional optimization based framework"
+    link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
+    venue: NeurIPS 2020
+  - score: 40%
+    prob: true
+    title: "L1 adversarial robustness certificates: a randomized smoothing approach"
+    link: "https://openreview.net/forum?id=H1lQIgrFDS"
+    comment: parse from Figure 6
+  - score: 25%
+    prob: true
+    title: "Certified robustness to adversarial examples with differential privacy"
+    link: "https://arxiv.org/abs/1802.03471"
+    venue: "S&P 2019"
+    comment: "parse from Figures 7 and 8 of <a href='https://openreview.net/pdf?id=H1lQIgrFDS'>this paper</a> since the original paper does not provide certified accuray under this setting"
+
+- setting: "ImageNet,&nbsp; \\(\\ell_1\\), &nbsp; \\(\\epsilon=2.0\\)"
+  records:
+  - score: 48%
+    prob: true
+    title: "Randomized smoothing of all shapes and sizes"
+    link: "https://arxiv.org/abs/2002.08118"
+    venue: ICML 2020
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 45%
+    prob: false
+    title: "Improved, deterministic smoothing for l1 certified robustness"
+    link: "https://arxiv.org/abs/2103.10834"
+    venue: ICML 2021
+  - score: 30%
+    prob: true
+    title: "Black-box certification with randomized smoothing: A functional optimization based framework"
+    link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
+    venue: NeurIPS 2020
+  - score: 26%
+    prob: true
+    title: "L1 adversarial robustness certificates: a randomized smoothing approach"
+    link: "https://openreview.net/forum?id=H1lQIgrFDS"
+    comment: parse from Figure 6
+  - score: 16%
+    prob: true
+    title: "Certified robustness to adversarial examples with differential privacy"
+    link: "https://arxiv.org/abs/1802.03471"
+    venue: "S&P 2019"
+    comment: "parse from Figures 7 and 8 of <a href='https://openreview.net/pdf?id=H1lQIgrFDS'>this paper</a> since the original paper does not provide certified accuray under this setting"
