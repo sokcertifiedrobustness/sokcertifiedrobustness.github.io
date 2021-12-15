@@ -10,15 +10,15 @@ This is an anonymized website that provides [**full benchmark results**](/benchm
 These results were run with our open-sourced toolbox.
 
 
-**Leaderboard**: In the leaderboard page, we collect highest certified accuracies achieved on three common datasets (MNIST, CIFAR-10, and ImageNet) against \\(\ell_1\\), \\(\ell_2\\), and \\(\ell_\infty\\) adversaries reported by existing papers. These high certified robust accuracies are achieved by the combinations of robust training and verification.
+**Leaderboard**: In the leaderboard page, we collect the highest certified accuracies achieved on three common datasets (MNIST, CIFAR-10, and ImageNet) against \\(\ell_1\\), \\(\ell_2\\), and \\(\ell_\infty\\) adversaries reported by existing papers. These high certified robust accuracies are achieved by leveraging both robust training and verification approaches.
 
 On both pages, the main evaluation metric is
 \\\[\text{certified accuracy} = \\dfrac{\\text{\# samples verified to be robust}}{\\text{number of all evaluated samples}}.\\\]
 
 Benchmark and Leaderboard are created for different purposes:  
-- Leaderboard mainly reflects the progresses achieved in certified robustness, which provides a guidance for users who want to pick an approach to achieve high certified robustness for their datasets. Since the progresses are made by both training and verification, it does not serve as a direct comparison of either component.
-
 - Benchmark aims to provide fair comparisons of verification approaches (and smoothing distributions/certification for smoothed DNNs), where we drew several findings as detailed in the SoK paper.
+
+- Leaderboard mainly reflects the progresses achieved in certified robustness, which provides a guidance for users who want to pick an approach to achieve high certified robustness for their datasets. Since the progresses are made by both robust training and verification approaches, the leaderboard does not make direct comparison of either component.
 
 
 ##### FAQ
