@@ -16,9 +16,9 @@ On both pages, the main evaluation metric is
 \\\[\text{certified accuracy} = \\dfrac{\\text{\# samples verified to be robust}}{\\text{number of all evaluated samples}}.\\\]
 
 Benchmark and Leaderboard are created for different purposes:  
-- Benchmark aims to provide fair comparisons of verification approaches (and smoothing distributions/certification for smoothed DNNs), where we drew several findings as detailed in the SoK paper.
+- Benchmark aims to provide fair comparisons for verification approaches (and smoothing distributions/certification for smoothed DNNs), where we drew several findings as detailed in the SoK paper.
 
-- Leaderboard mainly reflects the progresses achieved in certified robustness, which provides a guidance for users who want to pick an approach to achieve high certified robustness for their datasets. Since the progresses are made by both robust training and verification approaches, the leaderboard does not make direct comparison of either component.
+- Leaderboard mainly reflects the progresses achieved in certified robustness, which provides a guidance for users who want to pick an approach to achieve high certified robustness for their datasets. Since the progresses are made by both robust training and verification approaches, the leaderboard does not make direct comparison for either robust training or verification approaches.
 
 
 ##### FAQ
