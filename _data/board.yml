@@ -288,6 +288,65 @@
     comment: parse from Figure 6 (top)
 
 
+- setting: "CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
+  records:
+  - score: 40%
+    prob: true
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 39.5%
+    prob: true
+    title: "On the certified robustness for ensemble models and beyond"
+    link: "https://openreview.net/pdf?id=tUa4REjGjTf"
+    comment: "ICLR 2022 submission"
+  - score: 38%
+    prob: true
+    title: "Macer: attack-free and scalable robust training via maximizing certified radius"
+    link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
+    venue: ICLR 2020
+  - score: 37.8%
+    prob: true
+    title: "Consistency regularization for certified robustness of smoothed classifiers"
+    link: "https://arxiv.org/abs/2006.04062"
+    venue: NeurIPS 2020
+  - score: 37.2%
+    prob: true
+    title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
+    link: "https://arxiv.org/abs/2111.09277"
+    venue: NeurIPS 2021
+  - score: 22%
+    prob: true
+    title: "Certified adversarial robustness via randomized smoothing"
+    link: "https://arxiv.org/abs/1902.02918"
+    venue: ICML 2019
+    comment: parse from Figure 6 (top)
+
+- setting: "CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=2.0\\)"
+  records:
+  - score: 20.3%
+    prob: true
+    title: "On the certified robustness for ensemble models and beyond"
+    link: "https://openreview.net/pdf?id=tUa4REjGjTf"
+    comment: "ICLR 2022 submission"
+  - score: 19.5%
+    prob: true
+    title: "Consistency regularization for certified robustness of smoothed classifiers"
+    link: "https://arxiv.org/abs/2006.04062"
+    venue: NeurIPS 2020
+  - score: 19%
+    prob: true
+    title: Provably robust deep learning via adversarially trained smoothed classifiers
+    link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
+    venue: NeurIPS 2019
+    comment: combine adversarial training, self-training, and unlabeled data
+  - score: 19%
+    prob: true
+    title: "Macer: attack-free and scalable robust training via maximizing certified radius"
+    link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
+    venue: ICLR 2020
+
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
   records:
   - score: 45%
