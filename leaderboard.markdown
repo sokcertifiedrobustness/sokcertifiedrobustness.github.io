@@ -4,7 +4,7 @@ title: Leaderboard
 permalink: /leaderboard/
 ---
 
-This page keeps track of highest certified accuracy reported by existing papers.
+This page keeps track of the highest certified accuracy reported by existing papers.
 
 The papers that are not published on conferences or journals, such as preprints, are in gray text.
 
