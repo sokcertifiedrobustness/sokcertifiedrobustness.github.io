@@ -41,7 +41,7 @@ For probabilistic certification, we only take the results into account if certif
                     </td>
                     <td>{% if item.venue %} {{item.venue}} {% else %} <span style='font-style: italic;'>*preprint</span> {% endif %}
                     </td>
-                    <td style='font-size:8px'>{% if item.comment %} {{item.comment}} {% endif %}
+                    <td style='font-size:12px'>{% if item.comment %} {{item.comment}} {% endif %}
                     </td>
                 </tr>
                 {% endfor %}
