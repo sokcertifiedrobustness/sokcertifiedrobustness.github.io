@@ -10,7 +10,8 @@
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
     prob: false
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 97.91%
     title: "Robustra: training provable robust neural networks over reference adversarial space"
     link: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
@@ -47,7 +48,8 @@
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
     prob: false
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 93.10%
     title: Fast certified robust training with short warmup
     link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
@@ -116,7 +118,8 @@
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
     prob: false
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 53.97%
     title: "Towards stable and efficient training of verifiably robust neural networks"
     link: "https://openreview.net/pdf?id=Skxuk1rFwB"
@@ -135,7 +138,8 @@
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
     prob: false
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 35.42%
     title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
     link: "http://proceedings.mlr.press/v139/zhang21b.html"
@@ -269,7 +273,8 @@
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 68.8%
     prob: true
     title: "Consistency regularization for certified robustness of smoothed classifiers"
@@ -300,7 +305,8 @@
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 38%
     prob: true
     title: "Macer: attack-free and scalable robust training via maximizing certified radius"
@@ -329,7 +335,8 @@
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 19.5%
     prob: true
     title: "Consistency regularization for certified robustness of smoothed classifiers"
@@ -359,7 +366,8 @@
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 44%
     prob: true
     title: "Consistency regularization for certified robustness of smoothed classifiers"
@@ -393,7 +401,8 @@
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
-    comment: "ICLR 2022 submission"
+    venue: ICLR 2022
+    comment: ""
   - score: 28%
     prob: true
     title: Provably robust deep learning via adversarially trained smoothed classifiers
