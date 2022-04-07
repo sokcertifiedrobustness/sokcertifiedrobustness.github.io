@@ -196,12 +196,6 @@
     link: "https://arxiv.org/abs/2006.04062"
     venue: NeurIPS 2020
     comment: "under larger attack radius \\(\\epsilon=1.75\\)"
-  - score: 69.79%
-    prob: false
-    title: "Second-Order Provable Defenses against Adversarial Attacks"
-    link: "https://arxiv.org/abs/2006.00731"
-    venue: ICML 2020
-    comment: "non-relu neural networks"
   - score: 69.0%
     prob: true
     title: "Certified adversarial robustness with additive noise"
