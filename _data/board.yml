@@ -201,7 +201,7 @@
     title: "Second-Order Provable Defenses against Adversarial Attacks"
     link: "https://arxiv.org/abs/2006.00731"
     venue: ICML 2020
-    comment: "non-relu neural networks"
+    comment: "* against only the class with second largest logit, but not all non-ground-truth classes; non-relu neural networks"
   - score: 69.0%
     prob: true
     title: "Certified adversarial robustness with additive noise"
