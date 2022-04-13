@@ -114,6 +114,11 @@
     link: "https://openreview.net/forum?id=SJxSDxrKDr"
     venue: ICLR 2020
     prob: false
+  - score: 56.63%
+    title: Towards Evaluating and Training Verifiably Robust Neural Networks
+    link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
+    venue: CVPR 2021
+    prob: false
   - score: 54.12%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -149,6 +154,11 @@
     title: Fast certified robust training with short warmup
     link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
     venue: NeurIPS 2021
+    prob: false
+  - score: 34.92%
+    title: Towards Evaluating and Training Verifiably Robust Neural Networks
+    link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
+    venue: CVPR 2021
     prob: false
   - score: 33.38%
     title: "Automatic perturbation analysis for scalable certified robustness and beyond"
