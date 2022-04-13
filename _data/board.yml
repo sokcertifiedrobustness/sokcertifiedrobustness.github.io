@@ -44,6 +44,11 @@
     comment: ""
 - setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.3\\)"
   records:
+  - score: 94.02%
+    title: Towards Evaluating and Training Verifiably Robust Neural Networks
+    link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
+    venue: CVPR 2021
+    prob: false
   - score: 93.20%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
