@@ -44,6 +44,11 @@
     comment: ""
 - setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.3\\)"
   records:
+  - score: 94.02%
+    title: Towards Evaluating and Training Verifiably Robust Neural Networks
+    link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
+    venue: CVPR 2021
+    prob: false
   - score: 93.20%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -114,6 +119,11 @@
     link: "https://openreview.net/forum?id=SJxSDxrKDr"
     venue: ICLR 2020
     prob: false
+  - score: 56.63%
+    title: Towards Evaluating and Training Verifiably Robust Neural Networks
+    link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
+    venue: CVPR 2021
+    prob: false
   - score: 54.12%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -149,6 +159,11 @@
     title: Fast certified robust training with short warmup
     link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
     venue: NeurIPS 2021
+    prob: false
+  - score: 34.92%
+    title: Towards Evaluating and Training Verifiably Robust Neural Networks
+    link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
+    venue: CVPR 2021
     prob: false
   - score: 33.38%
     title: "Automatic perturbation analysis for scalable certified robustness and beyond"
@@ -196,6 +211,12 @@
     link: "https://arxiv.org/abs/2006.04062"
     venue: NeurIPS 2020
     comment: "under larger attack radius \\(\\epsilon=1.75\\)"
+  - score: 69.79%
+    prob: false
+    title: "Second-Order Provable Defenses against Adversarial Attacks"
+    link: "https://arxiv.org/abs/2006.00731"
+    venue: ICML 2020
+    comment: "! a loose certification --- certified accuracy against only the class with second largest logit, but not all non-ground-truth classes; non-relu neural networks"
   - score: 69.0%
     prob: true
     title: "Certified adversarial robustness with additive noise"
