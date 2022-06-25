@@ -12,7 +12,7 @@ This is the accompying website of [SoK: Certified Robustness for Deep Neural Net
     title<span style="color: #333333">=</span>{SoK: Certified Robustness for Deep Neural Networks},
     author<span style="color: #333333">=</span>{Linyi Li <span style="color: #000000; font-weight: bold">and</span> Tao Xie <span style="color: #000000; font-weight: bold">and</span> Bo Li},
     booktitle<span style="color: #333333">=</span>{44th {IEEE} Symposium on Security and Privacy, {SP} 2023, San Francisco, CA, USA, 22-26 May 2023},
-    publisher<span style="color: #333333">=</span>{{IEEE}},
+    publisher<span style="color: #333333">=</span>{IEEE},
     year<span style="color: #333333">=</span>{2023}
 }</pre>
 </div>
