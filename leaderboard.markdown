@@ -64,6 +64,6 @@ For probabilistic certification, we only take the results into account if certif
 
 - Want to announce your awesome SOTA result, add new leaderboard settings, or report a bug? 
 
-Feel free to directly edit ``_data/board.yml`` in the website repo and send a pull request.
+Feel free to directly edit ``_data/board.yml`` in the [website repo](https://github.com/sokcertifiedrobustness/sokcertifiedrobustness.github.io/blob/master/_data/board.yml) and send a pull request.
 
 
