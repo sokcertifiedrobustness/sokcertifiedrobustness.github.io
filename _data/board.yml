@@ -279,6 +279,11 @@
     link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
     venue: NeurIPS 2019
     comment: combine adversarial training, self-training, and unlabeled data
+  - score: 79.3%
+    prob: true
+    title: (Certified!!) Adversarial Robustness for Free!
+    link: "https://arxiv.org/abs/2206.10550"
+    comment: based on denoising with large diffusion models
   - score: 72%
     prob: true
     title: "Unlabeled data improves adversarial robustness"
@@ -290,12 +295,23 @@
     title: "Macer: attack-free and scalable robust training via maximizing certified radius"
     link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
     venue: ICLR 2020
+  - score: 70.6%
+    prob: true
+    title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
+    link: "https://arxiv.org/abs/2106.06946"
+    venue: ICLR 2022
+    comment: "From Table 8"
   - score: 70.4%
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
     venue: ICLR 2022
     comment: ""
+  - score: 69.0%
+    prob: true
+    title: Robust and Accurate -- Compositional Architectures for Randomized Smoothing
+    link: "https://arxiv.org/abs/2204.00487"
+    comment: parse from Table 8
   - score: 68.8%
     prob: true
     title: "Consistency regularization for certified robustness of smoothed classifiers"
@@ -328,6 +344,12 @@
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
     venue: ICLR 2022
     comment: ""
+  - score: 38.8%
+    prob: true
+    title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
+    link: "https://arxiv.org/abs/2106.06946"
+    venue: ICLR 2022
+    comment: "From Table 8"
   - score: 38%
     prob: true
     title: "Macer: attack-free and scalable robust training via maximizing certified radius"
@@ -338,11 +360,21 @@
     title: "Consistency regularization for certified robustness of smoothed classifiers"
     link: "https://arxiv.org/abs/2006.04062"
     venue: NeurIPS 2020
+  - score: 37.8%
+    prob: true
+    title: Robust and Accurate -- Compositional Architectures for Randomized Smoothing
+    link: "https://arxiv.org/abs/2204.00487"
+    comment: parse from Table 10
   - score: 37.2%
     prob: true
     title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
     link: "https://arxiv.org/abs/2111.09277"
     venue: NeurIPS 2021
+  - score: 36.4%
+    prob: true
+    title: (Certified!!) Adversarial Robustness for Free!
+    link: "https://arxiv.org/abs/2206.10550"
+    comment: based on denoising with large diffusion models
   - score: 22%
     prob: true
     title: "Certified adversarial robustness via randomized smoothing"
@@ -358,6 +390,12 @@
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
     venue: ICLR 2022
     comment: ""
+  - score: 19.8%
+    prob: true
+    title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
+    link: "https://arxiv.org/abs/2106.06946"
+    venue: ICLR 2022
+    comment: "From Table 8"
   - score: 19.5%
     prob: true
     title: "Consistency regularization for certified robustness of smoothed classifiers"
@@ -377,12 +415,23 @@
 
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
   records:
+  - score: 54.3%
+    prob: true
+    title: (Certified!!) Adversarial Robustness for Free!
+    link: "https://arxiv.org/abs/2206.10550"
+    comment: based on denoising with large diffusion models
   - score: 45%
     prob: true
     title: Provably robust deep learning via adversarially trained smoothed classifiers
     link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
     venue: NeurIPS 2019
     comment: combine adversarial training, self-training, and unlabeled data
+  - score: 44.6%
+    prob: true
+    title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
+    link: "https://arxiv.org/abs/2106.06946"
+    venue: ICLR 2022
+    comment: "From Table 8"
   - score: 44.4%
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
@@ -404,6 +453,11 @@
     title: "Macer: attack-free and scalable robust training via maximizing certified radius"
     link: "https://openreview.net/pdf?id=rJx1Na4Fwr"
     venue: ICLR 2020
+  - score: 42.2%
+    prob: true
+    title: Robust and Accurate -- Compositional Architectures for Randomized Smoothing
+    link: "https://arxiv.org/abs/2204.00487"
+    comment: parse from Table 1
   - score: 39%
     prob: true
     title: "Certified adversarial robustness via randomized smoothing"
@@ -424,6 +478,17 @@
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
     venue: ICLR 2022
     comment: ""
+  - score: 29.5%
+    prob: true
+    title: (Certified!!) Adversarial Robustness for Free!
+    link: "https://arxiv.org/abs/2206.10550"
+    comment: based on denoising with large diffusion models
+  - score: 28.6%
+    prob: true
+    title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
+    link: "https://arxiv.org/abs/2106.06946"
+    venue: ICLR 2022
+    comment: "From Table 8"
   - score: 28%
     prob: true
     title: Provably robust deep learning via adversarially trained smoothed classifiers
