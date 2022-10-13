@@ -199,6 +199,12 @@
 
 - setting: "MNIST,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.58\\)"
   records:
+  - score: 73.0%
+    prob: false
+    title: "Provably Adversarially Robust Nearest Prototype Classifiers"
+    link: "https://arxiv.org/abs/2207.07208"
+    venue: ICML 2022
+    comment: "Non-neural-network approach"
   - score: 70.7%
     prob: true
     title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
