@@ -251,6 +251,7 @@
     prob: false
     title: "Householder activations for provable robustness against adversarial attacks"
     link: "https://arxiv.org/pdf/2108.04062.pdf"
+    vanue: ICLR 2022
   - score: 59.16%
     prob: false
     title: "Orthogonalizing convolutional layers with the cayley transform"
