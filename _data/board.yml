@@ -3,7 +3,7 @@
   - score: 98.14%
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
-    vanue: NeurIPS 2022
+    venue: NeurIPS 2022
     prob: false
     comment: "SortNet"
   - score: 97.95%
@@ -58,7 +58,7 @@
   - score: 93.40%
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
-    vanue: NeurIPS 2022
+    venue: NeurIPS 2022
     prob: false
     comment: "SortNet"
   - score: 93.20%
@@ -134,7 +134,7 @@
   - score: 56.94% 
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
-    vanue: NeurIPS 2022
+    venue: NeurIPS 2022
     prob: false
     comment: "SortNet + MLP"
   - score: 56.63%
@@ -165,7 +165,7 @@
   - score: 40.39% 
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
-    vanue: NeurIPS 2022
+    venue: NeurIPS 2022
     prob: false
     comment: "SortNet"
   - score: 40.06%
@@ -211,7 +211,7 @@
   - score: 18.18% 
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
-    vanue: NeurIPS 2022
+    venue: NeurIPS 2022
     prob: false
     comment: "SortNet+MLP (2x larger)"
   - score: 15.86%
@@ -232,7 +232,7 @@
   - score: 9.54% 
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
-    vanue: NeurIPS 2022
+    venue: NeurIPS 2022
     prob: false
     comment: "SortNet+MLP (2x larger)"
   - score: 8.73%
@@ -328,7 +328,7 @@
     prob: false
     title: "Householder activations for provable robustness against adversarial attacks"
     link: "https://arxiv.org/pdf/2108.04062.pdf"
-    vanue: ICLR 2022
+    venue: ICLR 2022
   - score: 59.16%
     prob: false
     title: "Orthogonalizing convolutional layers with the cayley transform"
