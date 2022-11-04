@@ -1,5 +1,11 @@
 - setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.1\\)"
   records:
+  - score: 98.14%
+    title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+    link: "https://arxiv.org/abs/2210.01787"
+    vanue: NeurIPS 2022
+    prob: false
+    comment: "SortNet"
   - score: 97.95%
     title: Fast certified robust training with short warmup
     link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
@@ -49,6 +55,12 @@
     link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
     venue: CVPR 2021
     prob: false
+  - score: 93.40%
+    title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+    link: "https://arxiv.org/abs/2210.01787"
+    vanue: NeurIPS 2022
+    prob: false
+    comment: "SortNet"
   - score: 93.20%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -119,6 +131,12 @@
     link: "https://openreview.net/forum?id=SJxSDxrKDr"
     venue: ICLR 2020
     prob: false
+  - score: 56.94% 
+    title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+    link: "https://arxiv.org/abs/2210.01787"
+    vanue: NeurIPS 2022
+    prob: false
+    comment: "SortNet + MLP"
   - score: 56.63%
     title: Towards Evaluating and Training Verifiably Robust Neural Networks
     link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
@@ -144,6 +162,12 @@
 
 - setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=8/255\\)"
   records:
+  - score: 40.39% 
+    title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+    link: "https://arxiv.org/abs/2210.01787"
+    vanue: NeurIPS 2022
+    prob: false
+    comment: "SortNet"
   - score: 40.06%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -181,6 +205,48 @@
     venue: ICCV 2019
     prob: false
     comment: "Train on TPU"
+
+- setting: "TinyImageNet,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=1/255\\)"
+  records:
+  - score: 18.18% 
+    title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+    link: "https://arxiv.org/abs/2210.01787"
+    vanue: NeurIPS 2022
+    prob: false
+    comment: "SortNet+MLP (2x larger)"
+  - score: 15.86%
+    title: "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond"
+    link: "https://arxiv.org/abs/2002.12920"
+    venue: NeurIPS 2020
+    prob: false
+    comment: ""
+  - score: 14.85%
+    title: "Scalable verified training for provably robust image classification"
+    link: "https://openaccess.thecvf.com/content_ICCV_2019/html/Gowal_Scalable_Verified_Training_for_Provably_Robust_Image_Classification_ICCV_2019_paper.html"
+    venue: ICCV 2019
+    prob: false
+    comment: "WideResNet, reported by Auto-LiRPA paper"
+
+- setting: "ImageNet 64x64,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=1/255\\)"
+  records:
+  - score: 9.54% 
+    title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+    link: "https://arxiv.org/abs/2210.01787"
+    vanue: NeurIPS 2022
+    prob: false
+    comment: "SortNet+MLP (2x larger)"
+  - score: 8.73%
+    title: "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond"
+    link: "https://arxiv.org/abs/2002.12920"
+    venue: NeurIPS 2020
+    prob: false
+    comment: ""
+  - score: 6.13%
+    title: "Scalable verified training for provably robust image classification"
+    link: "https://openaccess.thecvf.com/content_ICCV_2019/html/Gowal_Scalable_Verified_Training_for_Provably_Robust_Image_Classification_ICCV_2019_paper.html"
+    venue: ICCV 2019
+    prob: false
+    comment: "based on arXiv version (1810.12715)"
 
 - setting: "ImageNet,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=1/255\\)"
   records:
@@ -253,6 +319,11 @@
     title: "Certified adversarial robustness with additive noise"
     link: "https://proceedings.neurips.cc/paper/2019/file/335cd1b90bfa4ee70b39d08a4ae0cf2d-Paper.pdf"
     venue: NeurIPS 2019
+  - score: 64.49%
+    prob: false
+    title: "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness"
+    link: "https://arxiv.org/abs/2210.11620"
+    venue: NeurIPS 2022
   - score: 62.96%
     prob: false
     title: "Householder activations for provable robustness against adversarial attacks"
