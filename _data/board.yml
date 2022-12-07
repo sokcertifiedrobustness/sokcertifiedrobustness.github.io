@@ -126,6 +126,11 @@
     venue: NeurIPS 2019
     prob: true
     comment: use unlabeled data
+  - score: 61.97%
+    title: "IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound"
+    link: "https://arxiv.org/abs/2206.14772"
+    venue: ICML 2022 Workshop on Formal Verification of Machine Learning
+    prob: false
   - score: 60.5%
     title: "Adversarial training and provable defenses: bridging the gap"
     link: "https://openreview.net/forum?id=SJxSDxrKDr"
