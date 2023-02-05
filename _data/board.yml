@@ -328,7 +328,6 @@
     prob: false
     title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
     link: "https://arxiv.org/abs/2301.12549"
-    venue: Arxiv
   - score: 64.49%
     prob: false
     title: "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness"
@@ -503,11 +502,6 @@
 
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
   records:
-  - score: 14.20%
-    prob: false
-    title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
-    link: "https://arxiv.org/abs/2301.12549"
-    venue: Arxiv
   - score: 54.3%
     prob: true
     title: (Certified!!) Adversarial Robustness for Free!
@@ -562,6 +556,10 @@
     title: "Black-box certification with randomized smoothing: A functional optimization based framework"
     link: "https://proceedings.neurips.cc/paper/2020/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf"
     venue: NeurIPS 2020
+  - score: 14.20%
+    prob: false
+    title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
+    link: "https://arxiv.org/abs/2301.12549"
     
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=2.0\\)"
   records:
