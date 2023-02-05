@@ -324,6 +324,11 @@
     title: "Certified adversarial robustness with additive noise"
     link: "https://proceedings.neurips.cc/paper/2019/file/335cd1b90bfa4ee70b39d08a4ae0cf2d-Paper.pdf"
     venue: NeurIPS 2019
+  - score: 65.10%
+    prob: false
+    title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
+    link: "https://arxiv.org/abs/2301.12549"
+    venue: Arxiv
   - score: 64.49%
     prob: false
     title: "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness"
@@ -339,7 +344,7 @@
     title: "Orthogonalizing convolutional layers with the cayley transform"
     link: "https://openreview.net/pdf?id=Pbj8H_jEHYv"
     venue: ICLR 2021
-  - score: 58.4%
+  - score: 60.00%
     prob: false
     title: "Globally-robust neural networks"
     link: "https://arxiv.org/abs/2102.08452"
@@ -498,6 +503,11 @@
 
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
   records:
+  - score: 14.20%
+    prob: false
+    title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
+    link: "https://arxiv.org/abs/2301.12549"
+    venue: Arxiv
   - score: 54.3%
     prob: true
     title: (Certified!!) Adversarial Robustness for Free!
