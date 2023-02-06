@@ -27,4 +27,14 @@ Feel free to directly edit `_data/board.yml` in the repo and send a pull request
 
 ---
 
-Maintained by Linyi.
+Current maintainer: Linyi Li
+
+Contributors:
+- Linyi Li
+- Zayd Hammoudeh
+- Alessandro De Palma
+- Zifan Wang
+- Václav Voráček
+
+(missing? please create a PR to include your name)
+
