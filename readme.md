@@ -23,7 +23,9 @@ If you find this repo helpful, please consider cite our paper:
 
 ## Announcing your great result?
 
-Feel free to directly edit `_data/board.yml` in the repo and send a pull request.
+1. To add your results in trend curves of https://sokcertifiedrobustness.github.io/leaderboard/, feel free to directly edit `_data/sota_trend.yml` in the repo and send a pull request.
+
+2. To add your results in tables of https://sokcertifiedrobustness.github.io/leaderboard/, feel free to directly edit `_data/board.yml` in the repo and send a pull request.
 
 ---
 

@@ -1,0 +1,520 @@
+- 
+  groupname: Certified, MNIST, Linf, eps=0.1
+  color: "#A9BCD0"
+  data:
+    # example entry:
+    # - date: 2017-09 [date format: yyyy-mm]
+    #   racc: "0.1" [certified robust accuracy in absolute number between 0.00 and 1.00]
+    #   title: Certified robust [paper title]
+    #   venue: ICML 2018 [paper venue, if not published write "preprint"]
+    #   url: https://arxiv.org/abs/1711.00851 [paper URL]
+    #   comment: (optional, will show when the point is clicked)
+    - date: 2017-10
+      racc: "0.6500"
+      title: "Certified Defenses against Adversarial Examples"
+      url: "https://arxiv.org/abs/1801.09344"
+      venue: ICLR 2018
+
+    - date: 2017-11
+      racc: "0.9418"
+      title: "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope"
+      url: "https://arxiv.org/abs/1711.00851"
+      venue: ICML 2018
+
+    - date: 2018-05
+      racc: "0.9633"
+      title: "Scaling Provable Adversarial Defenses"
+      url: "https://arxiv.org/abs/1805.12514"
+      venue: NeurIPS 2018
+    
+    - date: 2018-09
+      racc: "0.9433"
+      title: "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability"
+      url: "https://arxiv.org/abs/1809.03008"
+      venue: ICLR 2019
+    
+    - date: 2018-10
+      racc: "0.9777"
+      title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
+      venue: ICCV 2019
+      comment: 'Accepted at ICCV 2019 under the title \"Scalable Verified Training for Provably Robust Image Classification\"'
+    
+    - date: 2019-06
+      racc: "0.9776"
+      title: "Towards stable and efficient training of verifiably robust neural networks"
+      url: "https://arxiv.org/abs/1906.06316"
+      venue: ICLR 2020
+    
+    - date: 2019-08
+      racc: "0.9791"
+      title: "Robustra: training provable robust neural networks over reference adversarial space"
+      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+      venue: IJCAI 2019
+    
+    - date: 2019-09
+      racc: "0.9710"
+      title: "Adversarial Training and Provable Defenses: Bridging the Gap"
+      url: "https://openreview.net/forum?id=SJxSDxrKDr"
+      venue: ICLR 2020
+    
+    - date: 2021-02
+      racc: "0.9770"
+      title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
+      url: "https://arxiv.org/abs/2102.05363"
+      venue: ICML 2021
+      comment: Reported by https://openreview.net/pdf?id=Q76Y7wkiji
+
+    - date: 2021-03
+      racc: "0.9795"
+      title: "Fast Certified Robust Training with Short Warmup"
+      url: "https://arxiv.org/abs/2103.17268"
+      venue: NeurIPS 2021
+    
+    - date: 2021-10
+      racc: "0.9795"
+      title: "Boosting the Certified Robustness of L-infinity Distance Nets"
+      url: "https://arxiv.org/abs/2110.06850"
+      venue: ICLR 2022
+    
+    - date: 2022-05
+      racc: "0.9814"
+      title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+      url: "https://arxiv.org/abs/2210.01787"
+      venue: NeurIPS 2022
+
+    - date: 2022-10
+      racc: "0.9822"
+      title: "Certified Training: Small Boxes are All You Need"
+      url: "https://arxiv.org/abs/2210.04871"
+      venue: ICLR 2023
+-
+  groupname: Certified, MNIST, Linf, eps=0.3
+  color: "#58A4B0"
+  data:
+    # example entry:
+    # - date: 2017-09 [date format: yyyy-mm]
+    #   racc: "0.1" [certified robust accuracy in absolute number between 0.00 and 1.00]
+    #   title: Certified robust [paper title]
+    #   venue: ICML 2018 [paper venue, if not published write "preprint"]
+    #   url: https://arxiv.org/abs/1711.00851 [paper URL]
+    #   comment: (optional, will show when the point is clicked)
+    - date: 2018-05
+      racc: "0.5690"
+      title: "Scaling Provable Adversarial Defenses"
+      url: "https://arxiv.org/abs/1805.12514"
+      venue: NeurIPS 2018
+    
+    - date: 2018-09
+      racc: "0.8068"
+      title: "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability"
+      url: "https://arxiv.org/abs/1809.03008"
+      venue: ICLR 2019
+    
+    - date: 2018-10
+      racc: "0.9195"
+      title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
+      venue: ICCV 2019
+      comment: 'Accepted at ICCV 2019 under the title \"Scalable Verified Training for Provably Robust Image Classification\"'
+    
+    - date: 2019-06
+      racc: "0.9298"
+      title: "Towards stable and efficient training of verifiably robust neural networks"
+      url: "https://arxiv.org/abs/1906.06316"
+      venue: ICLR 2020
+
+    # - date: 2019-08
+    #   racc: "0.8309"
+    #   title: "Robustra: training provable robust neural networks over reference adversarial space"
+    #   url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+    #   venue: IJCAI 2019
+
+    - date: 2019-09
+      racc: "0.8570"
+      title: "Adversarial Training and Provable Defenses: Bridging the Gap"
+      url: "https://openreview.net/forum?id=SJxSDxrKDr"
+      venue: ICLR 2020
+    
+    - date: 2021-02
+      racc: "0.9309"
+      title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
+      url: "https://arxiv.org/abs/2102.05363"
+      venue: ICML 2021
+    
+    - date: 2021-03
+      racc: "0.9310"
+      title: "Fast Certified Robust Training with Short Warmup"
+      url: "https://arxiv.org/abs/2103.17268"
+      venue: NeurIPS 2021
+    
+    - date: 2021-04
+      racc: "0.9402"
+      title: "Towards Evaluating and Training Verifiably Robust Neural Networks"
+      url: "https://arxiv.org/abs/2104.00447"
+      venue: CVPR 2021
+
+    - date: 2021-10
+      racc: "0.9320"
+      title: "Boosting the Certified Robustness of L-infinity Distance Nets"
+      url: "https://arxiv.org/abs/2110.06850"
+      venue: ICLR 2022
+    
+    - date: 2022-05
+      racc: "0.9340"
+      title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+      url: "https://arxiv.org/abs/2210.01787"
+      venue: NeurIPS 2022
+    
+    - date: 2022-10
+      racc: "0.9340"
+      title: "Certified Training: Small Boxes are All You Need"
+      url: "https://arxiv.org/abs/2210.04871"
+      venue: ICLR 2023
+
+-
+  groupname: Empirical, MNIST, Linf, eps=0.3
+  empirical: true
+  color: "#58A4B0"
+  dash: true
+  data:
+    # example entry:
+    # - date: 2017-09 [date format: yyyy-mm]
+    #   racc: "0.1" [certified robust accuracy in absolute number between 0.00 and 1.00]
+    #   title: Certified robust [paper title]
+    #   venue: ICML 2018 [paper venue, if not published write "preprint"]
+    #   url: https://arxiv.org/abs/1711.00851 [paper URL]
+    #   comment: (optional, will show when the point is clicked)
+    - 
+      date: 2017-06
+      racc: "0.8930"
+      title: "Towards Deep Learning Models Resistant to Adversarial Attacks"
+      venue: ICLR 2018
+      url: https://arxiv.org/abs/1706.06083
+    -
+      date: 2019-06
+      racc: "0.9396"
+      title: "Towards stable and efficient training of verifiably robust neural networks"
+      url: "https://arxiv.org/abs/1906.06316"
+      venue: ICLR 2020
+    -
+      date: 2020-10
+      racc: "0.9634"
+      title: "Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples"
+      url: "https://arxiv.org/abs/2010.03593"
+      venue: preprint
+-
+  groupname: Certified, CIFAR-10, Linf, eps=2/255
+  color: "#AFBE8F"
+  data:
+    # example entry:
+    # - date: 2017-09 [date format: yyyy-mm]
+    #   racc: "0.1" [certified robust accuracy in absolute number between 0.00 and 1.00]
+    #   title: Certified robust [paper title]
+    #   venue: ICML 2018 [paper venue, if not published write "preprint"]
+    #   url: https://arxiv.org/abs/1711.00851 [paper URL]
+    #   comment: (optional, will show when the point is clicked)
+    - date: 2018-05
+      racc: "0.5389"
+      title: "Scaling Provable Adversarial Defenses"
+      url: "https://arxiv.org/abs/1805.12514"
+      venue: NeurIPS 2018
+  
+    - date: 2018-09
+      racc: "0.4593"
+      title: "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability"
+      url: "https://arxiv.org/abs/1809.03008"
+      venue: ICLR 2019
+
+    - date: 2018-10
+      racc: "0.5002"
+      title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
+      venue: ICCV 2019
+      comment: 'Accepted at ICCV 2019 under the title \"Scalable Verified Training for Provably Robust Image Classification\"'
+    
+    # - date: 2019-06
+    #   racc: "0.6820"
+    #   title: "Provably robust deep learning via adversarially trained smoothed classifiers"
+    #   venue: NeurIPS 2019
+    #   comment: randomized smoothing
+    
+    - date: 2019-06
+      racc: "0.5397"
+      title: "Towards stable and efficient training of verifiably robust neural networks"
+      url: "https://arxiv.org/abs/1906.06316"
+      venue: ICLR 2020
+
+    - date: 2019-08
+      racc: "0.5632"
+      title: "Robustra: training provable robust neural networks over reference adversarial space"
+      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+      venue: IJCAI 2019
+
+    - date: 2019-09
+      racc: "0.6050"
+      title: "Adversarial Training and Provable Defenses: Bridging the Gap"
+      url: "https://openreview.net/forum?id=SJxSDxrKDr"
+      venue: ICLR 2020
+    
+    - date: 2021-03
+      racc: "0.5285"
+      title: "Fast Certified Robust Training with Short Warmup"
+      url: "https://arxiv.org/abs/2103.17268"
+      venue: NeurIPS 2021
+    
+    - date: 2021-04
+      racc: "0.5663"
+      title: "Towards Evaluating and Training Verifiably Robust Neural Networks"
+      url: "https://arxiv.org/abs/2104.00447"
+      venue: CVPR 2021
+    
+    - date: 2021-10
+      racc: "0.5412"
+      title: "Boosting the Certified Robustness of L-infinity Distance Nets"
+      url: "https://arxiv.org/abs/2110.06850"
+      venue: ICLR 2022
+    
+    - date: 2022-05
+      racc: "0.5694"
+      title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+      url: "https://arxiv.org/abs/2210.01787"
+      venue: NeurIPS 2022
+
+    - date: 2022-06
+      racc: "0.6197"
+      title: "IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound"
+      url: "https://arxiv.org/abs/2206.14772"
+      venue: ICML 2022 Workshop on Formal Verification of Machine Learning
+
+    - date: 2022-10
+      racc: "0.6284"
+      title: "Certified Training: Small Boxes are All You Need"
+      url: "https://arxiv.org/abs/2210.04871"
+      venue: ICLR 2023
+-
+  groupname: Certified, CIFAR-10, Linf, eps=8/255
+  color: "#7D8570"
+  data:
+    # example entry:
+    # - date: 2017-09 [date format: yyyy-mm]
+    #   racc: "0.1" [certified robust accuracy in absolute number between 0.00 and 1.00]
+    #   title: Certified robust [paper title]
+    #   venue: ICML 2018 [paper venue, if not published write "preprint"]
+    #   url: https://arxiv.org/abs/1711.00851 [paper URL]
+    #   comment: (optional, will show when the point is clicked)
+    - date: 2018-05
+      racc: "0.2178"
+      title: "Scaling Provable Adversarial Defenses"
+      url: "https://arxiv.org/abs/1805.12514"
+      venue: NeurIPS 2018
+    
+    - date: 2018-09
+      racc: "0.2027"
+      title: "Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability"
+      url: "https://arxiv.org/abs/1809.03008"
+      venue: ICLR 2019
+
+    - date: 2018-10
+      racc: "0.3204"
+      title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
+      venue: ICCV 2019
+      comment: 'Accepted at ICCV 2019 under the title \"Scalable Verified Training for Provably Robust Image Classification\"'
+
+    # - date: 2019-08
+    #   racc: "0.2513"
+    #   title: "Robustra: training provable robust neural networks over reference adversarial space"
+    #   url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+    #   venue: IJCAI 2019
+
+    - date: 2019-06
+      racc: "0.3306"
+      title: "Towards stable and efficient training of verifiably robust neural networks"
+      url: "https://arxiv.org/abs/1906.06316"
+      venue: ICLR 2020
+
+    - date: 2019-09
+      racc: "0.2750"
+      title: "Adversarial Training and Provable Defenses: Bridging the Gap"
+      url: "https://openreview.net/forum?id=SJxSDxrKDr"
+      venue: ICLR 2020
+  
+    - date: 2020-02
+      racc: "0.3338"
+      title: "Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond"
+      url: "https://arxiv.org/abs/2002.12920"
+      venue: NeurIPS 2020
+
+    - date: 2021-02
+      racc: "0.3542"
+      title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
+      url: "https://arxiv.org/abs/2102.05363"
+      venue: ICML 2021
+    
+    - date: 2021-03
+      racc: "0.3497"
+      title: "Fast Certified Robust Training with Short Warmup"
+      url: "https://arxiv.org/abs/2103.17268"
+      venue: NeurIPS 2021
+    
+
+    - date: 2021-04
+      racc: "0.3492"
+      title: "Towards Evaluating and Training Verifiably Robust Neural Networks"
+      url: "https://arxiv.org/abs/2104.00447"
+      venue: CVPR 2021
+    
+    - date: 2021-10
+      racc: "0.4006"
+      title: "Boosting the Certified Robustness of L-infinity Distance Nets"
+      url: "https://arxiv.org/abs/2110.06850"
+      venue: ICLR 2022
+
+    - date: 2022-05
+      racc: "0.4039"
+      title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
+      url: "https://arxiv.org/abs/2210.01787"
+      venue: NeurIPS 2022
+
+    - date: 2022-10
+      racc: "0.3513"
+      title: "Certified Training: Small Boxes are All You Need"
+      url: "https://arxiv.org/abs/2210.04871"
+      venue: ICLR 2023
+
+-
+  groupname: Empirical, CIFAR-10, Linf, eps=8/255
+  empirical: true
+  color: "#7D8570"
+  dash: true
+  data:
+    - 
+      date: 2017-06
+      racc: "0.4580"
+      title: "Towards Deep Learning Models Resistant to Adversarial Attacks"
+      venue: ICLR 2018
+      url: https://arxiv.org/abs/1706.06083
+    -
+      date: 2020-02
+      racc: "0.5374"
+      title: "Boosting Adversarial Training with Hypersphere Embedding"
+      venue: NeurIPS 2020
+      url: https://arxiv.org/abs/2002.08619
+    -
+      date: 2020-04
+      racc: "0.6004"
+      title: "Adversarial Weight Perturbation Helps Robust Generalization"
+      venue: NeurIPS 2020
+      url: https://arxiv.org/abs/2004.05884
+      comment: "data source: robustbench.github.io"
+    -
+      date: 2020-10
+      racc: "0.5720"
+      title: "Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples"
+      url: "https://arxiv.org/abs/2010.03593"
+      venue: preprint
+    -
+      date: 2020-10
+      racc: "0.5964"
+      title: "Geometry-aware Instance-reweighted Adversarial Training"
+      url: "https://arxiv.org/abs/2010.01736"
+      venue: ICLR 2021
+      comment: "data source: robustbench.github.io"
+    - 
+      date: 2021-04
+      racc: "0.6027"
+      title: "Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?"
+      venue: ICLR 2022
+      comment: "data source: robustbench.github.io"
+    -
+      date: 2021-05
+      racc: "0.6338"
+      title: "Improving Robustness using Generated Data"
+      url: "https://arxiv.org/abs/2110.09468"
+      venue: NeurIPS 2021
+      comment: "data source: robustbench.github.io"
+    - 
+      date: 2022-02
+      racc: "0.6335"
+      title: "Robustness and Accuracy Could Be Reconcilable by (Proper) Definition"
+      url: "https://arxiv.org/abs/2202.10103"
+      venue: ICML 2022
+      comment: "data source: robustbench.github.io"
+    -
+      date: 2022-02
+      racc: "0.7129"
+      title: "Diffusion Models for Adversarial Purification"
+      url: "https://arxiv.org/abs/2205.07460"
+      venue: ICML 2022
+    - 
+      date: 2023-02
+      racc: "0.7069"
+      title: "Better Diffusion Models Further Improve Adversarial Training"
+      url: "https://arxiv.org/abs/2302.04638"
+      venue: preprint
+
+-
+  groupname: Certified, ImageNet, L2, eps=2.0
+  color: "#64113F"
+  data:
+    # example entry:
+    # - date: 2017-09 [date format: yyyy-mm]
+    #   racc: "0.1" [certified robust accuracy in absolute number between 0.00 and 1.00]
+    #   title: Certified robust [paper title]
+    #   venue: ICML 2018 [paper venue, if not published write "preprint"]
+    #   url: https://arxiv.org/abs/1711.00851 [paper URL]
+    #   comment: (optional, will show when the point is clicked)
+    - date: 2019-02
+      racc: "0.1900"
+      title: "Certified Adversarial Robustness via Randomized Smoothing"
+      url: https://arxiv.org/abs/1902.02918
+      venue: ICML 2019
+    
+    - date: 2019-06
+      racc: "0.2800"
+      title: "Provably robust deep learning via adversarially trained smoothed classifiers"
+      venue: NeurIPS 2019
+      url: https://arxiv.org/abs/1906.04584
+      comment: extra unlabelled data used
+
+    - date: 2020-01
+      racc: "0.2700"
+      title: "MACER: Attack-free and Scalable Robust Training via Maximizing Certified Radius"
+      venue: ICLR 2020
+      url: https://arxiv.org/abs/2001.02378
+    
+    - date: 2020-06
+      racc: "0.2400"
+      title: "Consistency regularization for certified robustness of smoothed classifiers"
+      venue: NeurIPS 2020
+      url: https://arxiv.org/abs/2006.04062
+    
+    - date: 2021-05
+      racc: "0.2600"
+      title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
+      venue: NeurIPS 2021
+      url: https://arxiv.org/abs/2111.09277
+
+    - date: 2021-06
+      racc: "0.2860"
+      title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
+      venue: ICLR 2022
+      url: https://arxiv.org/abs/2106.06946
+    
+    - date: 2021-07
+      racc: "0.3040"
+      title: "On the certified robustness for ensemble models and beyond"
+      venue: ICLR 2022
+      url: https://arxiv.org/abs/2107.10873
+    
+    - date: 2022-06
+      racc: "0.2950"
+      title: "(Certified!!) Adversarial Robustness for Free!"
+      venue: ICLR 2023
+      url: https://arxiv.org/abs/2206.10550
+    
+    - date: 2022-09
+      racc: "0.4220"
+      title: "DensePure: Understanding Diffusion Models towards Adversarial Robustness"
+      venue: ICLR 2023
+      url: https://arxiv.org/abs/2211.00322
+
+
+

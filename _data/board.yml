@@ -1,5 +1,11 @@
 - setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.1\\)"
   records:
+  - score: 98.22%
+    title: "Certified Training: Small Boxes are All You Need"
+    link: "https://arxiv.org/abs/2210.04871"
+    prob: false
+    venue: ICLR 2023
+    comment: "Approach name: SABR"
   - score: 98.14%
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
@@ -42,12 +48,22 @@
     venue: ICML 2021
     prob: false
     comment: 'Reported by <a href="https://openreview.net/pdf?id=Q76Y7wkiji">this paper</a>'
-  - score: 97.26%
+  - score: 97.1%
+    title: "MixTrain: Scalable Training of Verifiably Robust Neural Networks"
+    link: https://arxiv.org/abs/1811.02625
+    prob: false
+  - score: 96.33%
     title:  "Scaling provable adversarial defenses"
     link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
     venue: NeurIPS 2018
     prob: false
     comment: ""
+  - score: 94.18%
+    title: "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope"
+    link: "https://arxiv.org/abs/1711.00851"
+    venue: ICML 2018
+    prob: false
+  
 - setting: "MNIST,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=0.3\\)"
   records:
   - score: 94.02%
@@ -61,6 +77,12 @@
     venue: NeurIPS 2022
     prob: false
     comment: "SortNet"
+  - score: 93.40%
+    title: "Certified Training: Small Boxes are All You Need"
+    link: "https://arxiv.org/abs/2210.04871"
+    prob: false
+    venue: ICLR 2023
+    comment: "Approach name: SABR"
   - score: 93.20%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -111,6 +133,16 @@
     link: "https://openreview.net/pdf?id=BJfIVjAcKm"
     venue: ICLR 2019
     prob: false
+  - score: 58.4%
+    title: "MixTrain: Scalable Training of Verifiably Robust Neural Networks"
+    link: https://arxiv.org/abs/1811.02625
+    prob: false
+  - score: 56.90%
+    title:  "Scaling provable adversarial defenses"
+    link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
+    venue: NeurIPS 2018
+    prob: false
+    comment: ""
 
 - setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=2/255\\)"
   records:
@@ -126,6 +158,12 @@
     venue: NeurIPS 2019
     prob: true
     comment: use unlabeled data
+  - score: 62.84%
+    title: "Certified Training: Small Boxes are All You Need"
+    link: "https://arxiv.org/abs/2210.04871"
+    prob: false
+    venue: ICLR 2023
+    comment: "Approach name: SABR"
   - score: 61.97%
     title: "IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound"
     link: "https://arxiv.org/abs/2206.14772"
@@ -147,6 +185,11 @@
     link: "https://openaccess.thecvf.com/content/CVPR2021/papers/Lyu_Towards_Evaluating_and_Training_Verifiably_Robust_Neural_Networks_CVPR_2021_paper.pdf"
     venue: CVPR 2021
     prob: false
+  - score: 56.32%
+    title: "Robustra: training provable robust neural networks over reference adversarial space"
+    link: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+    venue: IJCAI 2019
+    prob: false
   - score: 54.12%
     title: Boosting the certified robustness of L-infinity distance nets
     link: "https://openreview.net/pdf?id=Q76Y7wkiji"
@@ -163,6 +206,18 @@
     link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
     venue: NeurIPS 2018
     prob: false
+  - score: 52.85%
+    title: Fast certified robust training with short warmup
+    link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
+    venue: NeurIPS 2021
+    prob: false
+    comment: ""
+  - score: 50.02%
+    title: "Scalable verified training for provably robust image classification"
+    link: "https://openaccess.thecvf.com/content_ICCV_2019/html/Gowal_Scalable_Verified_Training_for_Provably_Robust_Image_Classification_ICCV_2019_paper.html"
+    venue: ICCV 2019
+    prob: false
+    comment: "Train on TPU"
 
 
 - setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=8/255\\)"
@@ -184,6 +239,12 @@
     link: "http://proceedings.mlr.press/v139/zhang21b.html"
     venue: ICML 2021
     prob: false
+  - score: 35.13%
+    title: "Certified Training: Small Boxes are All You Need"
+    link: "https://arxiv.org/abs/2210.04871"
+    prob: false
+    venue: ICLR 2023
+    comment: "Approach name: SABR"
   - score: 34.97%
     title: Fast certified robust training with short warmup
     link: "https://openreview.net/forum?id=AQ9UL-7UvZx"
@@ -210,6 +271,17 @@
     venue: ICCV 2019
     prob: false
     comment: "Train on TPU"
+  - score: 25.13%
+    title: "Robustra: training provable robust neural networks over reference adversarial space"
+    link: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+    venue: IJCAI 2019
+    prob: false
+  - score: 21.78%
+    title:  "Scaling provable adversarial defenses"
+    link: "https://proceedings.neurips.cc/paper/2018/file/358f9e7be09177c17d0d17ff73584307-Paper.pdf"
+    venue: NeurIPS 2018
+    prob: false
+    comment: ""
 
 - setting: "TinyImageNet,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=1/255\\)"
   records:
@@ -371,6 +443,13 @@
     title: (Certified!!) Adversarial Robustness for Free!
     link: "https://arxiv.org/abs/2206.10550"
     comment: based on denoising with large diffusion models
+    venue: ICLR 2023
+  - score: 76.6%
+    prob: true
+    title: "DensePure: Understanding Diffusion Models towards Adversarial Robustness"
+    link: "https://arxiv.org/abs/2211.00322"
+    comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 72%
     prob: true
     title: "Unlabeled data improves adversarial robustness"
@@ -452,16 +531,23 @@
     title: Robust and Accurate -- Compositional Architectures for Randomized Smoothing
     link: "https://arxiv.org/abs/2204.00487"
     comment: parse from Table 10
+  - score: 37.4%
+    prob: true
+    title: "DensePure: Understanding Diffusion Models towards Adversarial Robustness"
+    link: "https://arxiv.org/abs/2211.00322"
+    comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 37.2%
     prob: true
     title: "SmoothMix: training confidence-calibrated smoothed classifiers for certified robustness"
     link: "https://arxiv.org/abs/2111.09277"
     venue: NeurIPS 2021
-  - score: 36.4%
+  - score: 35.5%
     prob: true
     title: (Certified!!) Adversarial Robustness for Free!
     link: "https://arxiv.org/abs/2206.10550"
     comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 22%
     prob: true
     title: "Certified adversarial robustness via randomized smoothing"
@@ -502,11 +588,18 @@
 
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=1.0\\)"
   records:
+  - score: 67.0%
+    prob: true
+    title: "DensePure: Understanding Diffusion Models towards Adversarial Robustness"
+    link: "https://arxiv.org/abs/2211.00322"
+    comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 54.3%
     prob: true
     title: (Certified!!) Adversarial Robustness for Free!
     link: "https://arxiv.org/abs/2206.10550"
     comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 45%
     prob: true
     title: Provably robust deep learning via adversarially trained smoothed classifiers
@@ -563,6 +656,12 @@
     
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=2.0\\)"
   records:
+  - score: 42.2%
+    prob: true
+    title: "DensePure: Understanding Diffusion Models towards Adversarial Robustness"
+    link: "https://arxiv.org/abs/2211.00322"
+    comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 30.4%
     prob: true
     title: "On the certified robustness for ensemble models and beyond"
@@ -574,6 +673,7 @@
     title: (Certified!!) Adversarial Robustness for Free!
     link: "https://arxiv.org/abs/2206.10550"
     comment: based on denoising with large diffusion models
+    venue: ICLR 2023
   - score: 28.6%
     prob: true
     title: "Boosting Randomized Smoothing with Variance Reduced Classifiers"
