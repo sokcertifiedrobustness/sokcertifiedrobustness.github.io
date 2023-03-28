@@ -33,23 +33,23 @@
       url: "https://arxiv.org/abs/1809.03008"
       venue: ICLR 2019
     
-    - date: 2018-10
+    - date: 2019-02
+      racc: "0.9791"
+      title: "Robustra: training provable robust neural networks over reference adversarial space"
+      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+      venue: IJCAI 2019
+
+    - date: 2019-03
       racc: "0.9777"
       title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
       venue: ICCV 2019
       comment: 'Accepted at ICCV 2019 under the title \"Scalable Verified Training for Provably Robust Image Classification\"'
-    
+
     - date: 2019-06
       racc: "0.9776"
       title: "Towards stable and efficient training of verifiably robust neural networks"
       url: "https://arxiv.org/abs/1906.06316"
       venue: ICLR 2020
-    
-    - date: 2019-08
-      racc: "0.9791"
-      title: "Robustra: training provable robust neural networks over reference adversarial space"
-      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
-      venue: IJCAI 2019
     
     - date: 2019-09
       racc: "0.9710"
@@ -110,7 +110,13 @@
       url: "https://arxiv.org/abs/1809.03008"
       venue: ICLR 2019
     
-    - date: 2018-10
+    - date: 2019-02
+      racc: "0.8309"
+      title: "Robustra: training provable robust neural networks over reference adversarial space"
+      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+      venue: IJCAI 2019
+
+    - date: 2019-03
       racc: "0.9195"
       title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
       venue: ICCV 2019
@@ -122,11 +128,6 @@
       url: "https://arxiv.org/abs/1906.06316"
       venue: ICLR 2020
 
-    # - date: 2019-08
-    #   racc: "0.8309"
-    #   title: "Robustra: training provable robust neural networks over reference adversarial space"
-    #   url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
-    #   venue: IJCAI 2019
 
     - date: 2019-09
       racc: "0.8570"
@@ -224,7 +225,13 @@
       url: "https://arxiv.org/abs/1809.03008"
       venue: ICLR 2019
 
-    - date: 2018-10
+    - date: 2019-02
+      racc: "0.5632"
+      title: "Robustra: training provable robust neural networks over reference adversarial space"
+      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+      venue: IJCAI 2019
+
+    - date: 2019-03
       racc: "0.5002"
       title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
       venue: ICCV 2019
@@ -242,11 +249,6 @@
       url: "https://arxiv.org/abs/1906.06316"
       venue: ICLR 2020
 
-    - date: 2019-08
-      racc: "0.5632"
-      title: "Robustra: training provable robust neural networks over reference adversarial space"
-      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
-      venue: IJCAI 2019
 
     - date: 2019-09
       racc: "0.6050"
@@ -312,17 +314,17 @@
       url: "https://arxiv.org/abs/1809.03008"
       venue: ICLR 2019
 
-    - date: 2018-10
+    - date: 2019-02
+      racc: "0.2513"
+      title: "Robustra: training provable robust neural networks over reference adversarial space"
+      url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
+      venue: IJCAI 2019
+
+    - date: 2019-03
       racc: "0.3204"
       title: "On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models"
       venue: ICCV 2019
       comment: 'Accepted at ICCV 2019 under the title \"Scalable Verified Training for Provably Robust Image Classification\"'
-
-    # - date: 2019-08
-    #   racc: "0.2513"
-    #   title: "Robustra: training provable robust neural networks over reference adversarial space"
-    #   url: "https://www.ijcai.org/Proceedings/2019/0654.pdf"
-    #   venue: IJCAI 2019
 
     - date: 2019-06
       racc: "0.3306"
