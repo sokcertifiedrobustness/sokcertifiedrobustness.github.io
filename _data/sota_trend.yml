@@ -476,7 +476,7 @@
       url: https://arxiv.org/abs/1906.04584
       comment: extra unlabelled data used
 
-    - date: 2020-01
+    - date: 2019-09
       racc: "0.2700"
       title: "MACER: Attack-free and Scalable Robust Training via Maximizing Certified Radius"
       venue: ICLR 2020
