@@ -415,11 +415,12 @@
     title: "Orthogonalizing convolutional layers with the cayley transform"
     link: "https://openreview.net/pdf?id=Pbj8H_jEHYv"
     venue: ICLR 2021
-  - score: 60.00%
+  - score: 58.4%
     prob: false
     title: "Globally-robust neural networks"
     link: "https://arxiv.org/abs/2102.08452"
     venue: ICML 2021
+    comment: "\"Scaling in Depth: Unlocking Robustness Certification on ImageNet\" reproduced 60.0%"
   - score: 51.96%
     prob: false
     title:  "Scaling provable adversarial defenses"
