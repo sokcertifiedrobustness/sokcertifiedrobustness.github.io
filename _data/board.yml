@@ -391,15 +391,16 @@
 - setting: "CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=36/255\\)"
   text: "Many records from CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=0.25\\) imply stronger baselines in this setting. To avoid duplication, these stronger baselines are not listed here."
   records:
+  - score: 70.1%
+    prob: false
+    title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
+    link: "https://arxiv.org/abs/2301.12549"
+    comment: With data-agumentation using a DDPM model. Without the DDPM augmentation for the dataset, it reports 66.9%.
   - score: 65.6%
     prob: true
     title: "Certified adversarial robustness with additive noise"
     link: "https://proceedings.neurips.cc/paper/2019/file/335cd1b90bfa4ee70b39d08a4ae0cf2d-Paper.pdf"
     venue: NeurIPS 2019
-  - score: 65.10%
-    prob: false
-    title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
-    link: "https://arxiv.org/abs/2301.12549"
   - score: 64.49%
     prob: false
     title: "LOT: Layer-wise Orthogonal Training on Improving l2 Certified Robustness"
