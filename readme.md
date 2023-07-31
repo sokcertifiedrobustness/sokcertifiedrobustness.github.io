@@ -37,6 +37,7 @@ Contributors:
 - Alessandro De Palma
 - Zifan Wang
 - Václav Voráček
+- Thomas R. Altstidl
 
 (missing? please create a PR to include your name)
 
