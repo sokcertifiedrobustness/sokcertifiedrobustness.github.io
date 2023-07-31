@@ -222,6 +222,11 @@
 
 - setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=8/255\\)"
   records:
+  - score: 41.78%
+    prob: false
+    title: "Raising the Bar for Certified Adversarial Robustness with Diffusion Models"
+    link: "https://arxiv.org/abs/2305.10388"
+    comment: SortNet with EDM-generated data
   - score: 40.39% 
     title: "Rethinking Lipschitz Neural Networks and Certified Robustness: A Boolean Function Perspective"
     link: "https://arxiv.org/abs/2210.01787"
@@ -396,6 +401,11 @@
     title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
     link: "https://arxiv.org/abs/2301.12549"
     comment: With data-agumentation using a DDPM model. Without the DDPM augmentation for the dataset, it reports 66.9%.
+  - score: 69.05%
+    prob: false
+    title: "Raising the Bar for Certified Adversarial Robustness with Diffusion Models"
+    link: "https://arxiv.org/abs/2305.10388"
+    comment: LOT with EDM-generated data
   - score: 65.6%
     prob: true
     title: "Certified adversarial robustness with additive noise"
