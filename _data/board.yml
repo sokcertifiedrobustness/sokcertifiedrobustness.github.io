@@ -396,10 +396,15 @@
 - setting: "CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=36/255\\)"
   text: "Many records from CIFAR-10,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=0.25\\) imply stronger baselines in this setting. To avoid duplication, these stronger baselines are not listed here."
   records:
+  - score: 78.1%
+    prob: false
+    title: "A Recipe for Improved Certifiable Robustness: Capacity and Data"
+    link: "https://arxiv.org/abs/2310.02513"
   - score: 70.1%
     prob: false
     title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
     link: "https://arxiv.org/abs/2301.12549"
+    venue: NeurIPS 2023
     comment: With data-agumentation using a DDPM model. Without the DDPM augmentation for the dataset, it reports 66.9%.
   - score: 69.05%
     prob: false
@@ -485,6 +490,10 @@
     link: "https://openreview.net/pdf?id=tUa4REjGjTf"
     venue: ICLR 2022
     comment: ""
+  - score: 69.5%
+    prob: false
+    title: "A Recipe for Improved Certifiable Robustness: Capacity and Data"
+    link: "https://arxiv.org/abs/2310.02513"
   - score: 69.0%
     prob: true
     title: Robust and Accurate -- Compositional Architectures for Randomized Smoothing
@@ -560,6 +569,10 @@
     link: "https://arxiv.org/abs/2206.10550"
     comment: based on denoising with large diffusion models
     venue: ICLR 2023
+  - score: 35.1%
+    prob: false
+    title: "A Recipe for Improved Certifiable Robustness: Capacity and Data"
+    link: "https://arxiv.org/abs/2310.02513"
   - score: 22%
     prob: true
     title: "Certified adversarial robustness via randomized smoothing"
@@ -665,6 +678,8 @@
     prob: false
     title: "Scaling in Depth: Unlocking Robustness Certification on ImageNet"
     link: "https://arxiv.org/abs/2301.12549"
+    venue: NeurIPS 2023
+
     
 - setting: "ImageNet,&nbsp; \\(\\ell_2\\), &nbsp; \\(\\epsilon=2.0\\)"
   records:
