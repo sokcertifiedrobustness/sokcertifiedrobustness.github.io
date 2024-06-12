@@ -152,12 +152,6 @@
 
 - setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=2/255\\)"
   records:
-  - score: 63.78%
-    title: "Expressive Losses for Verified Robustness via Convex Combinations"
-    link: "https://openreview.net/pdf?id=mzyZ4wzKlM"
-    prob: false
-    venue: ICLR 2024
-    comment: "Approach name: CC-IBP"
   - score: 68.2%
     title: Provably robust deep learning via adversarially trained smoothed classifiers
     link: "https://proceedings.neurips.cc/paper/2019/file/3a24b25a7b092a252166a1641ae953e7-Paper.pdf"
@@ -170,6 +164,12 @@
     venue: NeurIPS 2019
     prob: true
     comment: use unlabeled data
+  - score: 63.78%
+    title: "Expressive Losses for Verified Robustness via Convex Combinations"
+    link: "https://openreview.net/pdf?id=mzyZ4wzKlM"
+    prob: false
+    venue: ICLR 2024
+    comment: "Approach name: CC-IBP"
   - score: 62.84%
     title: "Certified Training: Small Boxes are All You Need"
     link: "https://arxiv.org/abs/2210.04871"
@@ -234,12 +234,6 @@
 
 - setting: "CIFAR-10,&nbsp; \\(\\ell_\\infty\\),&nbsp; \\(\\epsilon=8/255\\)"
   records:
-  - score: 35.44%
-    title: "Expressive Losses for Verified Robustness via Convex Combinations"
-    link: "https://openreview.net/pdf?id=mzyZ4wzKlM"
-    prob: false
-    venue: ICLR 2024
-    comment: "Approach name: MTL-IBP"
   - score: 41.78%
     prob: false
     title: "Raising the Bar for Certified Adversarial Robustness with Diffusion Models"
@@ -257,6 +251,12 @@
     prob: false
     venue: ICLR 2022
     comment: ""
+  - score: 35.44%
+    title: "Expressive Losses for Verified Robustness via Convex Combinations"
+    link: "https://openreview.net/pdf?id=mzyZ4wzKlM"
+    prob: false
+    venue: ICLR 2024
+    comment: "Approach name: MTL-IBP"
   - score: 35.42%
     title: "Towards certifying L-infinity robustness using neural networks with L-inf-dist neurons"
     link: "http://proceedings.mlr.press/v139/zhang21b.html"
